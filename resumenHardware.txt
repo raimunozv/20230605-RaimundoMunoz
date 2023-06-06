@@ -1,0 +1,4 @@
+RAM
+caché 
+ROM
+registros

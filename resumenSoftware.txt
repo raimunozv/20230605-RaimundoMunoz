@@ -1,0 +1,3 @@
+Adobe Photoshop - software de edición de fotos.
+Rhinoceros 7 - software de modelado 3D.
+Git - Software de control de versiones.

@@ -1,0 +1,114 @@
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ touch comandos.txt main.js index.html
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ git commit -m "commit 01 de RaimundoMunoz"
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        comandos.txt
+        index.html
+        main.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ git add .
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ git commit -m "commit 01 de RaimundoMunoz"
+[main (root-commit) 5240101] commit 01 de RaimundoMunoz
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 247 bytes | 247.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/raimunozv/20230605-RaimundoMunoz.git
+ * [new branch]      main -> main
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ git branch feature
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ git branch
+  feature
+* main
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ git checkout feature
+Switched to branch 'feature'
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (feature)
+$ mkdir Hardware
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (feature)
+$ ii. Software
+bash: ii.: command not found
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (feature)
+$ mkdir Software SeguridadInformatica
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (feature)
+$ cd Hardware/
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (feature)
+$ touch resumen.txt
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (feature)
+$ cp resumen.txt ../Software/
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (feature)
+$ cp resumen.txt ../SeguridadInformatica/
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (feature)
+$ git add .
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (feature)
+$ git commit -m "commit 02 de RaimundoMunoz"
+[feature d7200a7] commit 02 de RaimundoMunoz
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (feature)
+$ git push origin feature 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature' on GitHub by visiting:
+remote:      https://github.com/raimunozv/20230605-RaimundoMunoz/pull/new/feature
+remote:
+To https://github.com/raimunozv/20230605-RaimundoMunoz.git
+ * [new branch]      feature -> feature
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (feature)
+$ git checkout main 
+Switched to branch 'main'
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz/Hardware (main)
+$ cd ..
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ mv main.js resumenHardware.txt
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ ls
+comandos.txt  Hardware/  index.html  resumenHardware.txt  SeguridadInformatica/  Software/
+
+Rai@DESKTOP-5U610VK MINGW64 ~/Desktop/dh/Int a la informática/20230605-RaimundoMunoz (main)
+$ mv index.html resumenSoftware.txt
